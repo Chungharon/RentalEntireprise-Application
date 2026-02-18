@@ -2,12 +2,13 @@
   "name": "real-estate",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 next dev --webpack",
-    "build": "cross-env NODE_OPTIONS=--max-old-space-size=4096 next build --webpack",
-    "start": "next start",
-    "lint": "eslint"
-  },
+  "dev": "next dev --turbo",
+  "build": "next build",
+  "start": "next start",
+  "lint": "eslint"
+},
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",

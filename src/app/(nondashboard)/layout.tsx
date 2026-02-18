@@ -1,6 +1,7 @@
 import React from 'react'
 import { NAVBAR_HEIGHT } from '../../lib/constants'
-import Navbar from '../../components/Navbar'
+import Navbar from '@/components/Navbar'
+
 
 
 
